@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Appli CSE</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f8ff;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      color: #007bff;
+    }
+    .qr-section {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+    .qr-block {
+      max-width: 200px;
+    }
+    .qr-img {
+      width: 150px;
+      height: 150px;
+      object-fit: contain;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+    }
+    .label {
+      font-weight: bold;
+      margin-top: 10px;
+      color: #007bff;
+    }
+    .site-link {
+      display: inline-block;
+      margin-top: 30px;
+      font-size: 18px;
+      color: #ffffff;
+      background-color: #007bff;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Accédez à votre application CSE</h1>
+  <div class="qr-section">
+    <div class="qr-block">
+      <img class="qr-img" src="qr-iphone.png" alt="QR Code iPhone" />
+      <div class="label">Dispo sur iPhone</div>
+    </div>
+    <div class="qr-block">
+      <img class="qr-img" src="qr-android.png" alt="QR Code Android" />
+      <div class="label">Dispo sur Android</div>
+    </div>
+  </div>
+  <a class="site-link" href="https://www.cse-cproductions.fr/connected-homepage/" target="_blank">Accéder au site du CSE</a>
+</body>
+</html>
